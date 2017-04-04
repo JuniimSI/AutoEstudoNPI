@@ -1,0 +1,17 @@
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/model/Item.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/model/Usuario.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/repository/EmprestimoRepository.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/controller/EmprestimoController.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/model/Emprestimo.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/controller/UsuarioController.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/controller/ItemController.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/Desafior5Application.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/service/UsuarioService.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/configuration/teste.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/controller/PrincipalController.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/service/ItemService.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/service/EmprestimoService.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/model/Role.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/repository/RoleRepository.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/repository/UsuarioRepository.java
+/home/francisco.junior/workspace/Desafior5/src/main/java/com/example/repository/ItemRepository.java

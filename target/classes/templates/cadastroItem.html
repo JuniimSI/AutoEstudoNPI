@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+
+>
+<head>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="/webjars/materializecss/0.97.7/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="black lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+     
+      <h1 class="header center orange-text">EmprestaAi</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Cadastre seu item no nosso sistema..</h5>
+      </div>
+      
+
+    </div>
+  </div>
+
+
+  <div class="container ">
+    <div class="section">
+        <div class="row ">
+    <form class="col s12 " action="/itens/salvar" method="post">
+      <div class="row ">
+        <div class="input-field col s6">
+          <input id="item" name="nameItem" placeholder="NomeDoItem" type="text" class="validate"/>
+        </div>
+      <div class="input-field col s6">
+          <input placeholder = "Nome do usuario" id="usuario" name="nameUsuario" type="text" class="validate"/>
+      </div>
+  </div>
+      
+      <div class="row">
+        <div class="center ">
+            <button type="submit" name="action" class="btn-large waves-effect waves-light orange">Cadastrar</button>
+            <!--<button href="index.html" id="download-button" class="btn-large waves-effect waves-light orange">Cancelar</a>
+			-->
+        </div>
+      </div>
+    </form>
+  </div>
+        
+    </div>
+    
+  </div>
+
+
+
+
+
+
+  <footer class=" black page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="/webjars/jquery/2.2.4/jquery.js"></script>
+  <script src="/webjars/materializecss/0.97.7/js/materialize.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
