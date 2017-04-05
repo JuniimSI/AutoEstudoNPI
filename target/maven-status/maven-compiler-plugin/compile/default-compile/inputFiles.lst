@@ -11,6 +11,7 @@
 /home/francisco.junior/git/NPI2/src/main/java/com/example/model/Item.java
 /home/francisco.junior/git/NPI2/src/main/java/com/example/service/UsuarioService.java
 /home/francisco.junior/git/NPI2/src/main/java/com/example/configuration/teste.java
+/home/francisco.junior/git/NPI2/src/main/java/com/example/controller/LoginController.java
 /home/francisco.junior/git/NPI2/src/main/java/com/example/controller/PrincipalController.java
 /home/francisco.junior/git/NPI2/src/main/java/com/example/configuration/WebMvcConfig.java
 /home/francisco.junior/git/NPI2/src/main/java/com/example/service/EmprestimoService.java
